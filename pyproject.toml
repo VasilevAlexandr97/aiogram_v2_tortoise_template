@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "aiogram_v2_tortoise"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+aiogram = "^2.19"
+aiohttp = {extras = ["speedups"], version = "^3.8.1"}
+ujson = "^5.1.0"
+uvloop = "^0.16.0"
+tortoise-orm = "^0.18.1"
+asyncpg = "^0.25.0"
+
+[tool.poetry.dev-dependencies]
+autopep8 = "^1.6.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

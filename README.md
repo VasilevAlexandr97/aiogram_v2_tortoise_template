@@ -1,0 +1,1 @@
+Шаблон бота на aiogram v2 + tortoise-orm
